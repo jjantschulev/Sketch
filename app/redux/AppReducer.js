@@ -20,11 +20,11 @@ const AppReducer = (state = initialState, action) => {
       return {
         ...state,
         sketches: [
-          ...state.sketches,
           {
             name: generateRandomName(),
             lines: [],
           },
+          ...state.sketches,
         ],
       };
 

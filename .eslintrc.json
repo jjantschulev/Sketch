@@ -26,6 +26,7 @@
         "no-plusplus": "off",
         "class-methods-use-this": "off",
         "no-bitwise": "off",
-        "no-alert": "off"
+        "no-alert": "off",
+        "no-mixed-operators": "off"
     }
 }
